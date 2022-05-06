@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://dl3.smartisan.com/ota/mol.darwin-ard11-rom-8.5.0-SEKSA.darwin-user/202204081559/8.5.2-202204081429-user-drw-4523ec75fd.zip
-  ROM_NAME: SMARTIAAN
+  ROM_NAME: SMARTISAN
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
 
@@ -23,8 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     if: github.event.repository.owner.id == github.event.sender.id
-
-    steps:
+    
         - name: Checkout
          uses: actions/checkout@master
            

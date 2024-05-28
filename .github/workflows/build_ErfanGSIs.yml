@@ -21,8 +21,8 @@ on:
   workflow_dispatch:
     
 env:
-  ROM_URL: https://dl3.smartisan.com/ota/mol.darwin-ard11-rom-8.5.0-SEKSA.darwin-user/202204081559/8.5.2-202204081429-user-drw-4523ec75fd.zip
-  ROM_NAME: SMARTISAN
+  ROM_URL: https://nchc.dl.sourceforge.net/project/andyyan-gsi/lineage-16.x/lineage-16.0-20191017-UNOFFICIAL-treble_arm64_bvN.img.xz?viasf=1
+  ROM_NAME: OneUI
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
 
